@@ -1,0 +1,34 @@
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly;*/
+}
+
+.seccion1{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.seccion2{
+    flex: 5;
+}
+
+/*
+.seccion1{
+    display: flex;
+    flex-direction: row;
+}*/
+
+.seccion3{
+    flex: 3;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
